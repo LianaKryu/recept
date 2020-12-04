@@ -9,8 +9,9 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
-
+class TableRecipesIC: WKInterfaceController {
+    @IBOutlet weak var table: WKInterfaceTable!
+    
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
     }
